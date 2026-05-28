@@ -20,3 +20,21 @@ src/
 ├── Node.java
 ├── DLL.java
 └── LRUCache.java
+
+## Currently Working On
+
+- Thread-safe / concurrent version of the LRU Cache
+- Improving synchronization strategy
+- Exploring:
+  - `ReentrantLock`
+  - `ConcurrentHashMap`
+  - Reader-writer locking
+- Benchmarking performance under concurrent access
+
+## Future Improvements
+
+- Generic implementation using Java Generics
+- Unit testing with JUnit
+- Capacity resizing support
+- Time-based expiration (TTL)
+- LFU Cache implementation
