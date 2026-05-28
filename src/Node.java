@@ -1,4 +1,4 @@
-class Node {
+public class Node {
     int key, value;
     Node prev, next;
 

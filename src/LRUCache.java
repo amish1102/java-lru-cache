@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class LRUCache {
+public class LRUCache {
     int capacity;
     DLL cache = new DLL();
     Map<Integer, Node> mp = new HashMap<>(); // map that stores Key - Node mappings.

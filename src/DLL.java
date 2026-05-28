@@ -1,4 +1,4 @@
-class DLL {
+public class DLL {
     Node head, tail;
 
     DLL () {
